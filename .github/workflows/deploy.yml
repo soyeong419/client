@@ -27,6 +27,4 @@ jobs:
 
             docker build --no-cache -t reactclient .
             docker run -d --name reactclient -p 80:80 reactclient
-
-            docker build reactc
             
